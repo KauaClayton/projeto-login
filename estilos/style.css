@@ -56,6 +56,7 @@ div#formulario > h1{
 div#formulario > p{
     padding: 0px 5.6px 0px 5.6px;
     line-height: 20px;
+    margin-bottom: 15px;
     
 
 }
@@ -63,8 +64,9 @@ div#formulario > form > p{
     position: relative;
     padding: 0px 5.6px 0px 5.6px;
     line-height: 20px;
-    height: 172px;
-    width: 281px
+    height: 50px;
+    width: 281px;
+    
 }
 
 div#formulario >form > p > img#perfil{
@@ -95,4 +97,26 @@ div#formulario > form > p > input.ema:hover{
     background-color: white;
 }
 
+div#formulario >form > p > img#senha{
+    position:absolute;
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    top:15%;
+    left: 10%;}
+
+div#formulario > form > p > input.sen{
+        position: absolute;
+        width: 219px;  
+        background-color: #49a09d69;
+        border-radius: 10px;
+        text-align: left ;
+        font-weight: bolder;
+        transform: translate(-50%, -50%);
+        top: 15%;
+        left: 56%;
+        padding-top: 24px;  
+    }
 
