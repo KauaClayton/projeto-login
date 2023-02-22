@@ -23,7 +23,7 @@ main{
 section#login{
     position: absolute;
     transform:translate(-50%, -50%);
-    top:50%;
+    top:40%;
     left:50%
 }
 
@@ -42,7 +42,7 @@ div#imagem{
 div#formulario{
     background-color: white;
     border-radius: 0px 0px 10px 10px;
-    height: 300px;
+    height: 380px;
     width: 280px;
 
 }
@@ -88,8 +88,11 @@ div#formulario > form > p > input.ema{
     transform: translate(-50%, -50%);
     top: 15%;
     left: 56%;
-    padding-top: 24px;
-   
+    padding-top: 24px;  
+}
+
+div#formulario > form > p > input.ema:hover{
+    background-color: white;
 }
 
 
