@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+:root{
+    --cor01:#49a09d;
+    --cor02:#5f2c82;
+
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    position: relative;
+
+    height:100vh;
+    width: 100vw;
+    background-color:var(--cor02) ;
+}
+
+section#login{
+    position: absolute;
+    transform:translate(-50%, -50%);
+    top:50%;
+    left:50%
+}
+
+
+
+div#imagem{
+  
+    height: 170px;
+    width: 280px;
+    background: url('../imagens/pexels-gustavo-crivellari-5396946.jpg') right center no-repeat fixed;
+    background-size: cover;
+    margin: auto;
+    border-radius: 15px 15px 0px 0px;  
+}
+
+div#formulario{
+ 
+    height: 60vh;
+    width: 280px;
+    background-color: white;
+ 
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+div#formulario input{
+    border-radius: 5px;
+    background-color: #49a09d70;
+    text-align: center;
+    display: inline;
+    margin-left: 50px;
+    border: 2px solid black;
+    height: 35px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+
+    
+}
+div#formulario input.for:hover{
+    background-color: whitesmoke;
+}
+div#formulario > form > p{
+    padding-left: 12px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+    padding: 0px 1.6px 0px 1.6px;
+    line-height: 17px;
+}
+
+img{
+    height: 35px;
+    width: 35px;
+    display: inline;
+   
+}
+
+form > p > input#sub{
+    background-color: var(--cor01);
+    color: white;
+    width: 180px;
+    
+}
+
+form > p > input#sub:hover{
+    background-color: #49a09d59;
+    color: black;
+}
