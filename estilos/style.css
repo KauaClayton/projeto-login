@@ -15,7 +15,7 @@
 main{
     position: relative;
 
-    height:100vh;
+    height:110vh;
     width: 100vw;
     background-color:var(--cor02) ;
 }
@@ -168,9 +168,9 @@ div#formulario > form > p > input#esq:hover{
     cursor:pointer;
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (orientation:landscape) and (max-width: 580px){
     main{
         height: 130vh;
     }
     
-}
+} 
