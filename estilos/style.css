@@ -83,25 +83,29 @@ div#formulario >form > p > img#perfil{
 div#formulario > form > p > input.ema{
     position: absolute;
     width: 219px;  
-    background-color: #49a09d69;
-    border-radius: 10px;
+    background-color: #49a09d75;
+    border-radius: 15px;
     text-align: left ;
     font-weight: bolder;
     transform: translate(-50%, -50%);
     top: 15%;
     left: 56%;
-    padding-top: 24px;  
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor:pointer;  
+}
+div#formulario > form > p > input.ema:hover{
+    background-color: #85b8b6;;
+    
+
 }
 
-div#formulario > form > p > input.ema:hover{
-    background-color: white;
-}
 
 div#formulario >form > p > img#senha{
     position:absolute;
     height: 45px;
     width: 45px;
-    border-radius: 10px;
+    border-radius: 15px;
     display: inline-block;
     transform: translate(-50%, -50%);
     top:15%;
@@ -117,6 +121,49 @@ div#formulario > form > p > input.sen{
         transform: translate(-50%, -50%);
         top: 15%;
         left: 56%;
-        padding-top: 24px;  
+        padding-top: 12px;
+        padding-bottom:12px ;  
+        cursor:pointer;
+    }
+    div#formulario > form > p > input.sen:hover{
+        background-color: #85b8b6;
+        
+    
     }
 
+div#formulario > form > p > input#sub{
+    position: absolute;
+    background-color: var(--cor01);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 259px;
+    left: 4%;
+    top:-14%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    cursor:pointer;
+    font-size: 1em;
+    
+
+}
+
+div#formulario > form > p > input#esq{
+    position: absolute;
+    background-color: white;
+    color: #2d7573;
+    top: -1%;
+    left: 4%;
+    width: 259px;
+    border: 1px  #49a09d solid;
+    padding-bottom: 10px;
+    padding-top:15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+
+}
+div#formulario > form > p > input#esq:hover{
+    background-color: #49a09d2f;
+    cursor:pointer;
+}
