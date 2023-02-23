@@ -167,3 +167,10 @@ div#formulario > form > p > input#esq:hover{
     background-color: #49a09d2f;
     cursor:pointer;
 }
+
+@media screen and (orientation:landscape) {
+    main{
+        height: 90vh;
+    }
+    
+}
