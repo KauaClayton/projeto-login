@@ -139,7 +139,7 @@ div#formulario > form > p > input#sub{
     border-radius: 5px;
     width: 259px;
     left: 4%;
-    top:-14%;
+    top:0%;
     padding-bottom: 15px;
     padding-top: 15px;
     cursor:pointer;
@@ -152,7 +152,7 @@ div#formulario > form > p > input#esq{
     position: absolute;
     background-color: white;
     color: #2d7573;
-    top: -1%;
+    top: 14%;
     left: 4%;
     width: 259px;
     border: 1px  #49a09d solid;
