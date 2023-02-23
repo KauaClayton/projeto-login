@@ -1,5 +1,11 @@
 @charset "utf-8";
 
 main{
-    background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
+    background-image: linear-gradient(to bottom, #5f2c82, #2d7573);
+}
+
+div#imagem{
+    position: relative;
+    top: 30%;
+    left: 70%;
 }
