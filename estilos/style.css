@@ -170,7 +170,7 @@ div#formulario > form > p > input#esq:hover{
 
 @media screen and (orientation:landscape) {
     main{
-        height: 90vh;
+        height: 110vh;
     }
     
 }
