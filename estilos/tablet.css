@@ -4,8 +4,71 @@ main{
     background-image: linear-gradient(to bottom, #5f2c82, #2d7573);
 }
 
+section{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
 div#imagem{
     position: relative;
-    top: 30%;
-    left: 70%;
+    top: 38%;
+    left: -22%;
+    height: 355px;
+    width: 360px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+div#formulario{
+    position: relative;
+    top: -21%;
+    left: 45%;
+    width: 470px;
+    height: 356px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+div#formulario > h1{
+    font-size: 1.6em;
+}
+
+div#formulario > p{
+    margin-bottom: 25px;
+}
+
+div#formulario > form > p > img#perfil{
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+    border-radius: 0%;
+}
+div#formulario > form > p > input.ema{
+    top: 14%;
+    left: 77.4%;
+    width: 318px;
+    height: 31px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+div#formulario > form > p > img#senha{
+    width: 60px;
+    height: 60px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+div#formulario > form > p > input.sen{
+    top: 35%;
+    left: 77.4%;
+    width: 318px;
+    height: 31px;
+    border-radius: 15px;
+}
+
+div#formulario > form > p > input#sub{
+    width: 380px;
+}
+
+div#formulario > form > p > input#esq{
+    width: 380px;
 }

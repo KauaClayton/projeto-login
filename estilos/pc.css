@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+main{
+    background-image: linear-gradient(to bottom, #5f2c82, #2d7573);
+}
+section{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+div#imagem{
+    position: relative;
+    top: 30%;
+    left: -30%;
+    height: 355px;
+    width: 360px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+div#formulario{
+    position: relative;
+    top: -29%;
+    left: 37.5%;
+    width: 470px;
+    height: 356px;
+    border-radius:0px 10px 10px 0px ;
+}

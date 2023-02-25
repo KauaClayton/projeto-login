@@ -147,6 +147,9 @@ div#formulario > form > p > input#sub{
     
 
 }
+div#formulario > form > p > input#sub:hover{
+    background-color: #2d7573;
+}
 
 div#formulario > form > p > input#esq{
     position: absolute;
